@@ -1,0 +1,24 @@
+[package]
+name = "qolrus"
+version = "0.1.0"
+authors = ["Lewis Mosho Jr | Cerebrus Inc <hello@cerebrus.dev"]
+categories = ["development-tools"]
+description = "A suite of random but useful functions that are aimed at giving you 'piece of cake' level comfortability."
+# documentation = "https://docs.rs/qolrus"
+edition = "2021"
+include = [
+    "/Cargo.toml",
+    "LICENSE",
+    "src/**"
+]
+keywords = ["quality", "life", "ease", "simple"]
+license = "MIT"
+repository = "https://github.com/cerebrusinc/qolrus"
+rust-version = "1.72"
+
+[[example]]
+name = "random_colour"
+path = "examples/random_colour.rs"
+
+[dependencies]
+rand = "0.8"
